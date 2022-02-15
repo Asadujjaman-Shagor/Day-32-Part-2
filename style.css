@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    background-color: #ddd;
+    padding: 20px ;
+}
+.menu{
+    background-color: rgba(52, 184, 184, 0.897);
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: -5px;
+}
+.menu ul li a{
+    padding: 15px 30px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    border: 1px solid #fff;
+}
+
+.menu2{
+    margin-top: 30px;
+    background-color: green;
+}
+.menu2 ul{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.menu2 ul li{
+    list-style: none;
+    flex-grow: 1;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    display: block;
+}
+
+.row-2{
+    margin-top: 30px;
+    display: flex;
+}
+.row-2 .flex-item{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.row-3{
+    margin-top: 50px;
+    display: flex;
+}
+.row-3 .row-3-item{
+    border: 2px solid goldenrod;
+    padding: 10px;
+}
+.bigger{
+    flex-basis: 70%;
+    /* width: 70%; */
+}
+.smoller{
+    flex-basis: 30%;
+    /* width: 30%; */
+}
+
+.row-4{
+    margin-top: 50px;
+    display: flex;
+}
+.row-4-item{
+    border: 2px solid red;
+    padding: 10px;
+    flex: 1 0 0%;
+}
+.row-4-item.bigger-2{
+    flex-grow: 3;
+}
+
+.center-center{
+    height: 500px;
+    width: 500px;
+    border: 3px solid blue;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle-div{
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+}
